@@ -1,0 +1,33 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true, // false بالاصل
+      // Scalar الخاص في
+      "launchUrl": "scalar/v1",
+      /* Swagger الخاص في
+      "launchUrl": "swagger/index.html",
+      */
+      "applicationUrl": "http://localhost:5234",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      // Scalar الخاص في
+      "launchUrl": "scalar/v1",
+      "launchBrowser": true, // false بالاصل
+      /* Swagger الخاص في
+      "launchUrl": "swagger/index.html",
+      */
+      "applicationUrl": "https://localhost:7220;http://localhost:5234",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
